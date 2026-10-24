@@ -38,14 +38,16 @@ langchain-tutorials/
 🛠️ Setup & Installation
 1. Clone the Repository
 Bash
-git clone [https://github.com/your-username/langchain-tutorials.git](https://github.com/your-username/langchain-tutorials.git)
+git clone [https://github.com/your-username/langchain-tutorials.git](https://github.com/munawirmt/langchain-tutorials.git)
 cd langchain-tutorials
 2. Create a Virtual Environment
 Windows:
 
 Bash
 python -m venv venv
+
 venv\Scripts\activate
+
 Mac/Linux:
 
 Bash
