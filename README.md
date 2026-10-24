@@ -66,7 +66,9 @@ Create a .env file in the root directory and add your API keys:
 Code snippet
 
 OPENAI_API_KEY=your_openai_api_key
+
 GROQ_API_KEY=your_groq_api_key
+
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
 
 🚀 Usage
