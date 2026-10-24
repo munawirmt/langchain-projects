@@ -52,17 +52,23 @@ Mac/Linux:
 
 Bash
 python3 -m venv venv
+
 source venv/bin/activate
+
 3. Install Dependencies
 Bash
+
 pip install -r requirements.txt
-4. Set Up Environment Variables
+
+5. Set Up Environment Variables
 Create a .env file in the root directory and add your API keys:
 
 Code snippet
+
 OPENAI_API_KEY=your_openai_api_key
 GROQ_API_KEY=your_groq_api_key
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
+
 🚀 Usage
 Navigate to any subfolder to explore specific code examples or run the modules directly:
 
@@ -72,6 +78,7 @@ python rag/main.py
 
 # Example: Starting a Chatbot UI
 streamlit run chatbot/app.py
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit a pull request.
 
